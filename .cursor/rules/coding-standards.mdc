@@ -1,0 +1,15 @@
+---
+description: Apply Sarros coding standards when editing source code, config, tests, schemas, or integrations
+alwaysApply: true
+---
+
+# Sarros coding standards
+
+- Follow existing project patterns first.
+- Keep business logic out of UI components when the repo already has service/helper layers.
+- Validate API inputs and external payloads at boundaries.
+- Do not invent schemas, environment variables, API routes, or integration contracts.
+- Avoid adding dependencies unless clearly justified.
+- Protect secrets and customer data.
+- Use clear names and simple control flow.
+- Keep changes narrow and reviewable.

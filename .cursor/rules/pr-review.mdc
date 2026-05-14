@@ -1,0 +1,15 @@
+---
+description: Use when reviewing pull requests, diffs, commits, Cursor changes, Codex patches, migrations, or integrations
+alwaysApply: false
+---
+
+# Sarros PR review
+
+Prioritise findings by risk:
+
+- Blocker: data loss, security exposure, broken production path, failing build, incorrect migration.
+- High: user-visible regression, incorrect business logic, unhandled integration failure.
+- Medium: edge case, maintainability problem, missing meaningful test.
+- Low: cleanup, naming, docs, minor consistency.
+
+Check auth, API boundaries, data writes, migrations, external integrations, background jobs, money/quotes/invoices, customer data, and deletion paths first.

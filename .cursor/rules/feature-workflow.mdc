@@ -1,0 +1,35 @@
+---
+description: Use when building a new feature, screen, route, automation, integration, or dashboard
+alwaysApply: false
+---
+
+# Sarros feature workflow
+
+Before implementing, produce:
+
+```md
+## Feature understanding
+- User:
+- Problem:
+- Input:
+- Output:
+- Success criteria:
+
+## Existing patterns found
+- Relevant files:
+- Similar code:
+- Commands discovered:
+
+## Plan
+1.
+2.
+3.
+
+## Validation
+- Automated:
+- Manual:
+
+## Risks
+```
+
+Then implement the smallest complete version that fits existing patterns. Include clear loading, empty, error, success, and partial-failure states where relevant.

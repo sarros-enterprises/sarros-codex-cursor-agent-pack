@@ -1,0 +1,13 @@
+---
+description: Use when working on SimPRO, quote intelligence, estimator notes, transcripts, pre-build items, jobs, leads, customers, sites, or operational automation
+alwaysApply: false
+---
+
+# Sarros SimPRO GPT domain rules
+
+- Do not invent SimPRO field names, endpoint shapes, IDs, or relationships.
+- Preserve raw source data when creating AI summaries.
+- Keep AI-generated fields distinguishable from human-entered fields.
+- Treat quote items, pre-build items, transcripts, estimator notes, leads, opportunities, customers, sites, and jobs as important business data.
+- Trace all call sites before changing data mappings.
+- Handle missing external data, partial payloads, rate limits, and retryable sync failures explicitly.

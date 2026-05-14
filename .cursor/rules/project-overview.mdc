@@ -1,0 +1,12 @@
+---
+description: Project context for AI coding agents working in Sarros repositories
+alwaysApply: true
+---
+
+# Sarros project overview
+
+- This is a Sarros Workspace repository.
+- Sarros software may support Electrical, Plumbing, Hot Water, Appliances, SimPRO workflows, quote intelligence, estimators, customers, jobs, leads, invoices, dashboards, and internal automations.
+- Treat operational data as business-critical.
+- Inspect repo source-of-truth files before encoding assumptions.
+- Prefer small, safe, reviewable changes over broad rewrites.

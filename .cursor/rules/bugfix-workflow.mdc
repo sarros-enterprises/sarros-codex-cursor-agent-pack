@@ -1,0 +1,15 @@
+---
+description: Use when investigating bugs, errors, failing tests, regressions, or broken integrations
+alwaysApply: false
+---
+
+# Sarros bugfix workflow
+
+1. Capture the symptom exactly.
+2. Reproduce or narrow the failure.
+3. Trace entrypoint, failing code, related callers, and downstream consumers.
+4. State likely root cause before editing.
+5. Make the smallest safe patch.
+6. Validate the fixed path and one adjacent path.
+
+Do not mask errors with broad catch blocks, silent fallbacks, or removed validation unless explicitly required.
